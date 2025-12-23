@@ -10,6 +10,9 @@
   <a href="https://github.com/teerthsharma?tab=stars">
     <img src="https://img.shields.io/github/stars/teerthsharma?affiliations=OWNER&style=for-the-badge">
   </a>
+  <a href="https://orcid.org/0009-0005-0882-9168">
+    <img src="https://img.shields.io/badge/ORCID-0009--0005--0882--9168-A6CE39?style=for-the-badge&logo=orcid&logoColor=white">
+  </a>
 </p>
 
 ---
