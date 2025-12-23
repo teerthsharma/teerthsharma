@@ -169,6 +169,4 @@ I operate as a **hyper-generalist engineer** — someone who can:
 
 ---
 
-<sub>If systems break, I trace them.  
-If systems scale, I designed them.  
-If systems evolve — I'm already there.</sub>
+<sub>Frangenti persequor. Crescenti architectus. Evolventi sum.</sub>
