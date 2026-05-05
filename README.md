@@ -61,10 +61,6 @@ Verified microkernel, security-focused OS primitives.
 
 ---
 
-## 📊 ML / Optimization
-
-### [Parameter-Golf](https://github.com/teerthsharma/parameter-golf)
-*Minimal parameter竞赛 for neural networks — invented by Teerth Sharma.*
 
 ---
 
