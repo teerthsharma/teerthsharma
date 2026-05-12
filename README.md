@@ -1,7 +1,7 @@
 # Teerth Sharma
 
 **Physics · Compilers · AI · Topology**  
-`teerthsharma@outlook.com` · [`@teerthsharma`](https://github.com/teerthsharma) · Bangalore, India
+`teerths57@gmail.com` · [`@teerthsharma`](https://github.com/teerthsharma) · Bangalore, India
 
 [![GitHub](https://img.shields.io/github/followers/teerthsharma?label=Follow&style=for-the-badge)](https://github.com/teerthsharma)
 [![arXiv](https://img.shields.io/badge/arXiv-4%20papers-brightgreen?style=for-the-badge)](https://arxiv.org)
@@ -212,7 +212,7 @@ A universal topology programming language. Rust language runtime for topological
 
 ## Contact
 
-- **Email:** teerthsharma@outlook.com
+- **Email:** teerths57@gmail.com
 - **GitHub:** [@teerthsharma](https://github.com/teerthsharma)
 - **Website:** [teerthsharma.vercel.app](https://teerthsharma.vercel.app)
 
