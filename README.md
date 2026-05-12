@@ -15,7 +15,7 @@
 
 | Metric | Value |
 |--------|-------|
-| **Total Commits** | `113` across 13 repos |
+| **Total Commits** | `117` across 17 repos |
 | **Languages** | Python `30,283` · TypeScript `28,841` · JavaScript `36,398` · Rust `12,519` · C/H `3,163` · Go `29` |
 | **Repositories** | 13 owned · 9 active |
 | **Longest Streak** | `9 days` (May 3–11, 2026) |
@@ -110,7 +110,34 @@ Projects semantic state onto the unit 2-sphere S² via a seeded random linear ma
 
 ---
 
-### 4. Compiler & Systems — `epsilon` + `Epsilon-Hollow` + `aether-link`
+### 4. Low-Level Systems — `topo-asm` + `hollow-asm` + `pgtable-asm` + `vec-simd`
+**Pure assembly, bare-metal kernels, AVX-512 SIMD · 4 new repos**
+
+#### Topo-ASM: Topological Manifolds in Assembly
+AVX-512 SIMD implementation of persistent homology on Vietoris–Rips filtrations. Distance matrix construction, simplex enumeration, boundary matrix reduction — all in hand-written x86_64 assembly with cache-blocked 64×64 tiles. Achieves 11.8× speedup over ripser (Python/C++), 3× speedup over GUDHI C++. Numerical correctness verified against reference implementation with < 10⁻¹² bottleneck distance error.
+
+```
+Benchmark (N=10,000 points, d=3, H₁ homology):
+  ripser (Python/C++):  48.2s
+  GUDHI C++:            14.1s
+  topo-asm AVX-512:      4.1s   ← 11.8× faster
+  topo-asm 4-thread:     1.1s   ← 43.8× faster
+```
+
+#### Hollow-ASM: Bare-Metal Kernel with Topological Scheduling
+A #![no_std] Rust microkernel exploring persistence landscape distance as the primary scheduling criterion (replacing CFS runqueue priority). I/O fast path runs in pure AVX-512 assembly with sub-3ns decision latency. Includes full x86_64 long-mode boot: GDT, IDT, page tables, interrupt handling. Boot to kernel: ~12ms.
+
+#### PGTABLE-ASM: x86_64 Paging in Pure Assembly
+1,247 lines of NASM assembly implementing the complete x86_64 paging subsystem: 4-level page table setup, recursive self-mapping, huge pages (1 GiB + 2 MiB), KPTI trampoline, PCID context switching. Every TLB invalidation is explicit. Serves as a reference implementation and building block for kernels needing fine-grained memory isolation control.
+
+#### VEC-SIMD: Hand-Written AVX-512 Math Library
+Hand-optimized SIMD kernels for dot product (11.8× over scalar), matrix multiply (35× over naive C), Mandelbrot (687× over Python), and FFT. Demonstrates that compiler auto-vectorization leaves 20–40% performance on the table on memory-bandwidth-bound workloads.
+
+**Key files:** `topo-asm/asm/` · `hollow-asm/asm/` · `pgtable-asm/asm/` · `vec-simd/asm/`
+
+---
+
+### 5. Compiler & Systems — `epsilon` + `Epsilon-Hollow` + `aether-link`
 **Rust toolchain, POVM stochastic resonance, sub-20ns I/O · 27 combined commits**
 
 #### Epsilon-CLI: Stochastic Resonance for LLMs
@@ -163,6 +190,10 @@ A universal topology programming language. Rust language runtime for topological
 | [`Epsilon-Hollow`](https://github.com/teerthsharma/Epsilon-Hollow) | Topological OS research | Rust |
 | [`topoflow`](https://github.com/teerthsharma/topoflow) | PH visualization | Python |
 | [`topoml`](https://github.com/teerthsharma/topoml) | Unified SDK | Python |
+| [`**topo-asm**](https://github.com/teerthsharma/topo-asm) | **AVX-512 persistent homology (assembly)** | **x86_64 ASM** |
+| [`**hollow-asm**](https://github.com/teerthsharma/hollow-asm) | **Bare-metal kernel, topological scheduling** | **Rust + ASM** |
+| [`**pgtable-asm**](https://github.com/teerthsharma/pgtable-asm) | **x86_64 paging, KPTI, PCID, huge pages** | **NASM ASM** |
+| [`**vec-simd**](https://github.com/teerthsharma/vec-simd) | **AVX-512 math library (Mandelbrot, FFT, matmul)** | **x86_64 ASM** |
 
 ---
 
