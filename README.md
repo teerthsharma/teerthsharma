@@ -11,16 +11,16 @@
 
 ## Live Statistics
 
-> Computed from Git history across all repositories. Updated May 13, 2026.
+> Computed from Git history across all repositories. Updated May 14, 2026.
 
 | Metric | Value |
 |--------|-------|
-| **Total Commits** | `227` across 20 repos |
-| **Languages** | Python `393,849` · TypeScript `2,096,455` · JavaScript `505,845` · Rust `47,864` · Go `5,692` · C/H `23` |
+| **Total Commits** | `229` across 20 repos |
+| **Languages** | Python `396,093` · TypeScript `50,970` · JavaScript `590,955` · Rust `48,571` · Go `5,692` · C/H `37,751` |
 | **Repositories** | 13 owned · 9 active |
 | **Longest Streak** | `40 days` |
-| **Current Streak** | `2 days` (May 12–13, 2026) |
-| **Last Commit** | `2026-05-13` — Epsilon-Hollow: fix clippy -D warnings |
+| **Current Streak** | `0 days` (resets May 14, 2026) |
+| **Last Commit** | `2026-05-13` |
 | **PyPI Packages** | `faraday`, `hamliton`, `lambda-topo`, `epsilon-cli`, `topoml` |
 
 **Commits by day (May 2026):**
@@ -201,12 +201,12 @@ A universal topology programming language. Rust language runtime for topological
 
 | Language | Lines | Bar |
 |----------|------:|-----|
-| Python | 393,849 | ████████████████████ |
-| JavaScript | 505,845 | ████████████████████ |
-| TypeScript | 2,096,455 | ████████████████████ |
-| Rust | 47,864 | ██████████▌ |
+| Python | 396,093 | ████████████████████ |
+| JavaScript | 590,955 | ████████████████████ |
+| TypeScript | 50,970 | ██████████ |
+| Rust | 48,571 | █████████▌ |
 | Go | 5,692 | ███▎ |
-| C/H | 23 | ▎ |
+| C/H | 37,751 | ████████ |
 
 ---
 
