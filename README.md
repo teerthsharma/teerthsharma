@@ -73,6 +73,30 @@ Homologically protected information transfer on IBM Quantum hardware (ibm_marrak
 
 ---
 
+## Projects
+
+| Project | Status | Stack | Notes |
+|---------|--------|-------|-------|
+| **OmniTopos** | Active research | Python, Ripser, Lean 4 | Cosmological emergence from persistent homology |
+| **FluxPredict** | Active research | Python, FDFD, PyTorch | Predictive EM flux via topological operators |
+| **Aether-Lang Runtime** | In development | Rust, Lean 4 | Verified topology programming language |
+| **Epsilon-Hollow Kernel** | In development | Rust, x86_64 ASM | Microkernel with topological scheduling |
+| **TopoBridge-Q** | Experiment complete | Qiskit, Python | IBM Quantum verified homology transfer |
+
+---
+
+## Looking For
+
+I am looking for **endorsement** and collaboration opportunities in:
+- Research internships in topological physics / quantum computing
+- Compiler engineering roles (Rust, LLVM, verified languages)
+- Open-source funding for Epsilon-Hollow and Aether-Lang
+- Graduate program opportunities in computational topology
+
+If you are building at the intersection of mathematics and systems, I am interested in talking.
+
+---
+
 ## Contact
 
 - **Email:** teerths57@gmail.com
