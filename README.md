@@ -6,6 +6,14 @@
 
 ---
 
+> **Live Statistics** — Computed from Git history across all 20 repos. Updated May 18, 2026.
+>
+> **225 commits** · Python 395,836 · JavaScript 590,955 · TypeScript 50,970 · Rust 48,571 · Go 5,692 · C/H 37,751
+>
+> **Current streak:** 1 day · **Longest streak:** 40 days · **Last commit:** 2026-05-18
+
+---
+
 I build systems at the intersection of topological physics, compiler theory, and distributed AI. My current research treats the universe as a topological object — the Big Bang as a phase transition, electromagnetism as a Banach fixed-point on barcodes, intelligence as persistent homology in high-dimensional weight spaces.
 
 ---
