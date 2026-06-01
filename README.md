@@ -6,11 +6,11 @@
 
 ---
 
-> **Live Statistics** — Computed from Git history across all 22 repos. Updated May 31, 2026.
+> **Live Statistics** — Computed from Git history across all 22 repos. Updated June 1, 2026.
 >
-> **451 commits** · Python 399,546 · JavaScript 9,476,286 · TypeScript 6,062,213 · Rust 62,443 · Go 5,692 · C/H 3,302,014
+> **428 commits** · Python 399,398 · JavaScript 591,890 · TypeScript 50,970 · Rust 62,443 · Go 5,692 · C/H 37,728
 >
-> **Current streak:** 19 days · **Longest streak:** 40 days · **Last commit:** 2026-05-30
+> **Current streak:** 0 days · **Longest streak:** 4 days · **Last commit:** 2026-05-20
 
 ---
 
