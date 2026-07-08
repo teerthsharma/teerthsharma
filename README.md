@@ -2,7 +2,7 @@
 
 **Research systems engineer building where topology, physics, compilers, and low-level performance meet.**
 
-[GitHub](https://github.com/teerthsharma) / [Website](https://teerthsharma.vercel.app) / `teerths57@gmail.com` / Bangalore, India
+[GitHub](https://github.com/teerthsharma) / [Website](https://teerthsharma.vercel.app) / `teerths57@gmail.com` / India
 
 I turn hard mathematical ideas into runnable systems: topological machine learning pipelines, computational physics experiments, Rust runtimes, and hardware-aware kernels. My work usually starts with research questions and ends as code that can be inspected, benchmarked, and extended.
 
