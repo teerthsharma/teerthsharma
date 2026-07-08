@@ -1,116 +1,94 @@
 # Teerth Sharma
 
-**Physics · Compilers · AI · Topology · Quantum**
+**Research systems engineer building where topology, physics, compilers, and low-level performance meet.**
 
-`teerths57@gmail.com` · [GitHub](https://github.com/teerthsharma) · Bangalore, India · 19 years old
+[GitHub](https://github.com/teerthsharma) / [Website](https://teerthsharma.vercel.app) / `teerths57@gmail.com` / Bangalore, India
 
----
+I turn hard mathematical ideas into runnable systems: topological machine learning pipelines, computational physics experiments, Rust runtimes, and hardware-aware kernels. My work usually starts with research questions and ends as code that can be inspected, benchmarked, and extended.
 
->**Live Statistics** — Computed from Git history across all 22 repos. Updated June 06, 2026
->
-> **458 commits** · Python 399,595 · JavaScript 5,907,505 · TypeScript 50,970 · Rust 62,443 · Go 5,692 · C/H 37,751
->
-> **Current streak:** 1 day · **Longest streak:** 4 days · **Last commit:** 2026-06-05
+The pattern across my projects is simple:
 
----
+- **Topology as a practical tool** for ML features, manifold embeddings, persistent homology, and physical systems.
+- **Systems engineering underneath the theory** with Rust, Python, assembly, microkernels, SIMD, and runtime design.
+- **Research made executable** through open repositories, reproducible experiments, benchmarks, and readable technical entry points.
 
-I build systems at the intersection of topological physics, compiler theory, and distributed AI. My current research treats the universe as a topological object — the Big Bang as a phase transition, electromagnetism as a Banach fixed-point on barcodes, intelligence as persistent homology in high-dimensional weight spaces.
+## Current Focus
 
----
+| Track | What I am building | Why it matters |
+| --- | --- | --- |
+| Topological ML | Persistent-homology features, manifold embeddings, topology-aware model tooling | Make advanced geometry usable inside real ML workflows |
+| Computational physics | Electromagnetic and quantum experiments using topological operators | Explore physics models that can be simulated, measured, and verified |
+| Rust runtimes | Aether-Lang, verified kernels, prefetch and I/O systems | Bring research-grade abstractions closer to production systems |
+| Low-level performance | AVX-512, bare-metal kernels, SIMD math, microbenchmarking | Keep the abstractions honest by measuring what the hardware actually does |
 
-## Research
+## Flagship Projects
 
-### Cosmological Topology — [charlie](https://github.com/teerthsharma/charlie)
-Models cosmological emergence as topological phase transitions driven by persistent homology. Betti numbers (b₀, b₁, b₂) serve as fundamental cosmological state variables.
+### [Aether-Lang](https://github.com/teerthsharma/Aether-Lang)
 
+A Rust runtime and language experiment for topological ML: manifold embeddings, persistent homology, and a Lean 4 verified kernel. The goal is to make topology-first computation feel like a programmable systems layer, not just a notebook experiment.
+
+**Stack:** Rust, Lean 4, topology, runtime design
+
+### [faraday](https://github.com/teerthsharma/faraday)
+
+Computational Faraday Tensor work for discovering electromagnetic coupling through topology-fixed-point projection. This is the physics side of my work: mathematical structure, simulation, and measurable convergence.
+
+**Stack:** Python, computational electromagnetics, fixed-point methods, topology
+
+### [topological-ml-toolkit](https://github.com/teerthsharma/topological-ml-toolkit)
+
+A Rust + Python toolkit for persistent homology, Betti-curve features, manifold embeddings, backend contracts, and benchmarked ML pipelines. This is the bridge from deep theory to something data scientists and ML engineers can actually run.
+
+**Stack:** Python, Rust, ML tooling, persistent homology
+
+### [aether-link](https://github.com/teerthsharma/aether-link)
+
+High-performance I/O prefetch kernel work aimed at DirectStorage, WSL2, and latency-sensitive workloads. This is where I connect runtime ideas with the operating-system and hardware layer.
+
+**Stack:** Rust, systems programming, I/O, performance engineering
+
+## Technical Range
+
+```text
+Research:   topology, persistent homology, computational physics, quantum information
+Systems:    Rust runtimes, microkernels, prefetching, compiler experiments
+Performance: x86_64 assembly, AVX-512, SIMD kernels, benchmark-driven optimization
+ML:         topological features, manifold embeddings, Python pipelines, visualization
+Proofs:     Lean 4 kernels, verified abstractions, theorem-backed experiments
 ```
-Phase: ∅ → H₀ → H₀+H₁ → H₀+H₁+H₂ → GOD_FIXED
-Fixed point: T(x*) = x* at machine epsilon
-```
 
-### Electromagnetic Tensor Physics — [faraday](https://github.com/teerthsharma/faraday) + [hamliton](https://github.com/teerthsharma/hamliton)
-Learns a reduced-order topological operator on FDFD-derived electromagnetic fingerprints. The God Tensor converges to a true mathematical fixed point at `1.755×10⁻¹⁶` machine epsilon — verified by 50,001 immutable SHA-256 hash-chained ledger lines.
+## Selected Work
 
-```
-50,001 epochs → Banach Loss: 1.755e-16
-Betti-1 plateau: 0.00328 (open problem)
-```
+| Repository | Area | Description |
+| --- | --- | --- |
+| [Aether-Lang](https://github.com/teerthsharma/Aether-Lang) | Rust / topology | Runtime for topological ML with manifold embeddings, persistent homology, and Lean 4 verification |
+| [faraday](https://github.com/teerthsharma/faraday) | Physics / Python | Computational Faraday Tensor for topology-fixed-point electromagnetic coupling |
+| [topological-ml-toolkit](https://github.com/teerthsharma/topological-ml-toolkit) | ML tooling | Persistent-homology features, Betti curves, embeddings, docs, contracts, and E2E benchmarks |
+| [aether-link](https://github.com/teerthsharma/aether-link) | Systems / Rust | High-performance I/O prefetch kernel for DirectStorage, WSL2, and low-latency workloads |
+| [Asmodeus](https://github.com/teerthsharma/Asmodeus) | Python research | Experimental research code and prototypes |
+| [EPSILON-PHASE](https://github.com/teerthsharma/EPSILON-PHASE) | Physics / Python | Phase-oriented computational experiments |
 
-### Topological Machine Learning — [lambda-topo](https://github.com/teerthsharma/lambda-topo) + [topoml](https://github.com/teerthsharma/topoml)
-Persistent homology via ripser + FAISS-backed similarity index. Transforms point clouds into fixed-length Hilbert coefficient vectors for LLM context encoding via topological signatures rather than raw token embeddings.
+## What I Want To Be Known For
 
-### Low-Level Systems — [topo-asm](https://github.com/teerthsharma/topo-asm) · [hollow-asm](https://github.com/teerthsharma/hollow-asm) · [pgtable-asm](https://github.com/teerthsharma/pgtable-asm) · [vec-simd](https://github.com/teerthsharma/vec-simd)
-Hand-written x86_64 assembly for AVX-512 persistent homology, bare-metal Rust microkernels with topological scheduling, and pure NASM paging subsystems.
+I am building a body of work around **research-grade systems for topological computation**. The long-term direction is not just to publish clever prototypes, but to make complex topology and physics usable through APIs, runtimes, visual tools, and verified kernels.
 
-| Benchmark | Speedup |
-|-----------|---------|
-| topo-asm vs ripser (Python/C++) | **11.8×** |
-| topo-asm 4-thread vs ripser | **43.8×** |
-| vec-simd matmul vs naive C | **35×** |
-| vec-simd Mandelbrot vs Python | **687×** |
+The reviews of my GitHub profile all point to the same opportunity: the technical depth is already there. The next step is making the work easier to enter, easier to trust, and easier for other people to build on. That is the direction I am pushing now.
 
-### Compiler & Kernel Systems — [epsilon](https://github.com/teerthsharma/epsilon) · [Epsilon-Hollow](https://github.com/teerthsharma/Epsilon-Hollow) · [aether-link](https://github.com/teerthsharma/aether-link)
-**Epsilon-Hollow:** Microkernel OS research in Rust. Topological scheduling via persistence landscape distance. Sub-3ns I/O fast path in AVX-512 assembly.
+## Open To
 
-**Aether-Lang:** Universal topology programming language with 23 theorems and Lean 4 verified kernel (zero-sorry proofs).
-
-### Quantum Information — [topobridge-q](https://github.com/teerthsharma/topobridge-q)
-Homologically protected information transfer on IBM Quantum hardware (ibm_marrakesh, ibm_fez) with classically verified certificates.
-
-| Backend | Recovery (bridge ON) | Recovery (bridge OFF) | Advantage |
-|---------|---------------------|-----------------------|-----------|
-| ibm_marrakesh | 0.179 | 0.120 | **+50%** |
-| ibm_fez | 0.169 | 0.126 | **+34%** |
-
----
-
-## Selected Repositories
-
-| Repository | Language | Description |
-|------------|----------|-------------|
-| [Epsilon-Hollow](https://github.com/teerthsharma/Epsilon-Hollow) | Rust | Microkernel OS with topological scheduling |
-| [faraday](https://github.com/teerthsharma/faraday) | Python | God Tensor — Banach fixed-point EM coupling |
-| [hollow-asm](https://github.com/teerthsharma/hollow-asm) | Rust+ASM | Bare-metal kernel, sub-3ns I/O |
-| [topo-asm](https://github.com/teerthsharma/topo-asm) | x86_64 ASM | AVX-512 persistent homology |
-| [charlie](https://github.com/teerthsharma/charlie) | Python | Cosmological topology engine |
-| [topobridge-q](https://github.com/teerthsharma/topobridge-q) | Python | Quantum homological information transfer |
-| [epsilon](https://github.com/teerthsharma/epsilon) | Rust | Compiler toolkit |
-| [Aether-Lang](https://github.com/teerthsharma/Aether-Lang) | Rust | Topology programming language, Lean 4 verified |
-| [vec-simd](https://github.com/teerthsharma/vec-simd) | x86_64 ASM | AVX-512 math library |
-| [lambda-topo](https://github.com/teerthsharma/lambda-topo) | Python | TDA memory system |
-
----
-
-## Projects
-
-| Project | Status | Stack | Notes |
-|---------|--------|-------|-------|
-| **OmniTopos** | Active research | Python, Ripser, Lean 4 | Cosmological emergence from persistent homology |
-| **FluxPredict** | Active research | Python, FDFD, PyTorch | Predictive EM flux via topological operators |
-| **Aether-Lang Runtime** | In development | Rust, Lean 4 | Verified topology programming language |
-| **Epsilon-Hollow Kernel** | In development | Rust, x86_64 ASM | Microkernel with topological scheduling |
-| **TopoBridge-Q** | Experiment complete | Qiskit, Python | IBM Quantum verified homology transfer |
-
----
-
-## Looking For
-
-I am looking for **endorsement** and collaboration opportunities in:
-- Research internships in topological physics / quantum computing
-- Compiler engineering roles (Rust, LLVM, verified languages)
-- Open-source funding for Epsilon-Hollow and Aether-Lang
-- Graduate program opportunities in computational topology
-
-If you are building at the intersection of mathematics and systems, I am interested in talking.
-
----
+- Research internships in topological ML, computational physics, quantum computing, or scientific AI
+- Compiler and runtime engineering work, especially Rust, LLVM-adjacent systems, and verification
+- Collaborations that turn advanced math into usable libraries, CLIs, visual tools, or papers
+- Open-source funding or mentorship around Aether-Lang, topological ML tooling, and systems research
 
 ## Contact
 
-- **Email:** teerths57@gmail.com
-- **GitHub:** [@teerthsharma](https://github.com/teerthsharma)
-- **Website:** [teerthsharma.vercel.app](https://teerthsharma.vercel.app)
+If you are building serious systems at the edge of mathematics, physics, and machine intelligence, I want to talk.
+
+- Email: `teerths57@gmail.com`
+- Website: [teerthsharma.vercel.app](https://teerthsharma.vercel.app)
+- GitHub: [@teerthsharma](https://github.com/teerthsharma)
 
 ---
 
-*All code is publicly verifiable. Built with curiosity and persistence.*
+**Core thesis:** abstract mathematics becomes more valuable when it compiles, runs, benchmarks, and teaches.
