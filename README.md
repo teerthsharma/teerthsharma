@@ -21,6 +21,20 @@ The pattern across my projects is simple:
 | Rust runtimes | Aether-Lang, verified kernels, prefetch and I/O systems | Bring research-grade abstractions closer to production systems |
 | Low-level performance | AVX-512, bare-metal kernels, SIMD math, microbenchmarking | Keep the abstractions honest by measuring what the hardware actually does |
 
+## Tech Skill Mix
+
+```mermaid
+pie showData
+    title Technical Skill Mix
+    "Python research and ML" : 35
+    "Rust runtimes and systems" : 25
+    "Assembly, SIMD, kernels" : 15
+    "JavaScript and TypeScript tooling" : 15
+    "Lean 4, proofs, math" : 10
+```
+
+This is the way I want the profile to read: not as a random language list, but as a stack for turning advanced math into software people can run.
+
 ## Flagship Projects
 
 ### [Aether-Lang](https://github.com/teerthsharma/Aether-Lang)
