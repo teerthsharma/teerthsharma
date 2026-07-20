@@ -85,8 +85,7 @@ Proofs:     Lean 4 kernels, verified abstractions, theorem-backed experiments
 ## What I Want To Be Known For
 
 I am building a body of work around **research-grade systems for topological computation**. The long-term direction is not just to publish clever prototypes, but to make complex topology and physics usable through APIs, runtimes, visual tools, and verified kernels.
-
-The reviews of my GitHub profile all point to the same opportunity: the technical depth is already there. The next step is making the work easier to enter, easier to trust, and easier for other people to build on. That is the direction I am pushing now.
+Hope all that catches your eye I am 20 years old which means I am actively looking for jobs research oppouritny or any kind of investment (i do not have a buy me coffee link cause I dont like coffee hahah).
 
 ## Open To
 
