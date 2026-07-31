@@ -1,6 +1,6 @@
 # Teerth Sharma
 
-**Research systems engineer building where topology, physics, compilers, and low-level performance meet.**
+**Research systems engineer building where topology, physics, compilers, and low-level performance meet , actively looking for jobs.**
 
 [GitHub](https://github.com/teerthsharma) / [Website](https://teerthsharma.vercel.app) / `teerths57@gmail.com` / India
 
