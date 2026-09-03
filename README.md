@@ -6,7 +6,7 @@
 <a href="Teerth_Sharma_Resume.pdf"><b>Résumé (PDF)</b></a> &nbsp;·&nbsp; <a href="https://teerthfolio.vercel.app">Portfolio</a> &nbsp;·&nbsp; <a href="https://teerthsharma.vercel.app">Website</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/teerth-sharma-seal">LinkedIn</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0005-0882-9168">ORCID</a> &nbsp;·&nbsp; <code>teerths57@gmail.com</code> &nbsp;·&nbsp; Jaipur, India
 </p>
 
-I make systems that already run at scale use less memory, run faster, and give the same answer twice. Eleven changes landed in production ML infrastructure at Google DeepMind, Google, OpenAI, NVIDIA and Meta in 2026, each reviewed and accepted by the team that owns the code, one credited by name in the MuJoCo 3.11.0 release notes. The move is the same every time: a hot path pays quadratic or redundant cost because it ignores a partial order, a connectivity relation or an interval structure already present in its own data. The change replaces the scan with the structure.
+I make systems that already run at scale use less memory, run faster, and give the same answer twice. 
 
 <p align="center"><a href="https://github.com/pulls?q=is%3Apr+author%3Ateerthsharma+is%3Amerged+sort%3Aupdated-desc"><img src="commits.svg" alt="Eleven upstream contributions merged into production ML infrastructure in 2026"></a></p>
 
