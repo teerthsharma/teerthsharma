@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="218" viewBox="0 0 840 218" role="img" aria-label="Language distribution across 10 source repositories, by bytes">
+<title>Languages by bytes across 10 source repositories</title>
+<style>
+  .m { font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace }
+  .prompt { fill: #6e7681; font-size: 15px }
+  .name { fill: #e6edf3; font-size: 15px; font-weight: 600 }
+  .pct { fill: #8b949e; font-size: 15px }
+  .meta { fill: #6e7681; font-size: 13px }
+  .seg { animation: grow 1.1s cubic-bezier(.2,.8,.2,1) both }
+  @keyframes grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+</style>
+<rect width="840" height="218" rx="10" fill="#0d1117"/>
+<rect x="0.5" y="0.5" width="839" height="217" rx="9.5" fill="none" stroke="#30363d"/>
+<circle cx="22" cy="24" r="5" fill="#ff5f57"/><circle cx="40" cy="24" r="5" fill="#febc2e"/><circle cx="58" cy="24" r="5" fill="#28c840"/>
+<text class="m prompt" x="80" y="29">~ $ gh api /repos/teerthsharma/*/languages | sum</text>
+<line x1="16" y1="48" x2="824" y2="48" stroke="#21262d"/>
+<clipPath id="bar"><rect x="26" y="78" width="788" height="24" rx="6"/></clipPath>
+<g clip-path="url(#bar)">
+  <rect class="seg" x="26.00" y="78" width="597.24" height="24" fill="#dea584" style="transform-origin:26.00px 78px;animation-delay:0.00s"/>
+  <rect class="seg" x="623.24" y="78" width="151.00" height="24" fill="#3572A5" style="transform-origin:623.24px 78px;animation-delay:0.07s"/>
+  <rect class="seg" x="774.23" y="78" width="28.33" height="24" fill="#a0a2d2" style="transform-origin:774.23px 78px;animation-delay:0.14s"/>
+  <rect class="seg" x="802.57" y="78" width="4.04" height="24" fill="#89e051" style="transform-origin:802.57px 78px;animation-delay:0.21s"/>
+  <rect class="seg" x="806.61" y="78" width="7.39" height="24" fill="#6e7681" style="transform-origin:806.61px 78px;animation-delay:0.28s"/>
+</g>
+<circle cx="31" cy="143" r="5" fill="#dea584"/>
+<text class="m" x="44" y="148"><tspan class="name">Rust</tspan><tspan class="pct" dx="8">75.8%</tspan></text>
+<circle cx="228" cy="143" r="5" fill="#3572A5"/>
+<text class="m" x="241" y="148"><tspan class="name">Python</tspan><tspan class="pct" dx="8">19.2%</tspan></text>
+<circle cx="425" cy="143" r="5" fill="#a0a2d2"/>
+<text class="m" x="438" y="148"><tspan class="name">Lean</tspan><tspan class="pct" dx="8">3.6%</tspan></text>
+<circle cx="622" cy="143" r="5" fill="#89e051"/>
+<text class="m" x="635" y="148"><tspan class="name">Shell</tspan><tspan class="pct" dx="8">0.5%</tspan></text>
+<circle cx="31" cy="173" r="5" fill="#6e7681"/>
+<text class="m" x="44" y="178"><tspan class="name">Other</tspan><tspan class="pct" dx="8">0.9%</tspan></text>
+<text class="m meta" x="824" y="204" text-anchor="end">10 source repos - 11.3 MB - regenerated 2026-09-03</text>
+<text class="m meta" x="26" y="204">live from the GitHub API</text>
+</svg>

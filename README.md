@@ -8,7 +8,9 @@
 
 I make systems that already run at scale use less memory, run faster, and give the same answer twice. Eleven changes landed in production ML infrastructure at Google DeepMind, Google, OpenAI, NVIDIA and Meta in 2026, each reviewed and accepted by the team that owns the code, one credited by name in the MuJoCo 3.11.0 release notes. The move is the same every time: a hot path pays quadratic or redundant cost because it ignores a partial order, a connectivity relation or an interval structure already present in its own data. The change replaces the scan with the structure.
 
-<p align="center"><img src="commits.svg" width="840" alt="Eleven upstream contributions merged into production ML infrastructure in 2026"></p>
+<p align="center"><a href="https://github.com/pulls?q=is%3Apr+author%3Ateerthsharma+is%3Amerged+sort%3Aupdated-desc"><img src="commits.svg" alt="Eleven upstream contributions merged into production ML infrastructure in 2026"></a></p>
+
+<p align="center"><sub><a href="https://github.com/google-deepmind/mujoco/pull/3396">mujoco #3396</a> &nbsp;·&nbsp; <a href="https://github.com/google-deepmind/mujoco_warp/pull/1541">mujoco_warp #1541</a> &nbsp;·&nbsp; <a href="https://github.com/google-deepmind/mujoco/pull/3450">mujoco #3450</a> &nbsp;·&nbsp; <a href="https://github.com/openxla/xla/pull/46539">xla #46539</a> &nbsp;·&nbsp; <a href="https://github.com/tensorflow/tensorflow/pull/124410">tensorflow #124410</a> &nbsp;·&nbsp; <a href="https://github.com/google/XNNPACK/pull/10801">XNNPACK #10801</a> &nbsp;·&nbsp; <a href="https://github.com/google/highway/pull/3244">highway #3244</a> &nbsp;·&nbsp; <a href="https://github.com/triton-lang/kernels/pull/22">kernels #22</a> &nbsp;·&nbsp; <a href="https://github.com/NVIDIA/NeMo-Relay/pull/481">NeMo-Relay #481</a> &nbsp;·&nbsp; <a href="https://github.com/NVIDIA/topograph/pull/432">topograph #432</a> &nbsp;·&nbsp; <a href="https://github.com/facebook/pyrefly/pull/4180">pyrefly #4180</a></sub></p>
 
 <details>
 <summary><b>The eleven, with links</b></summary>
@@ -31,7 +33,9 @@ I make systems that already run at scale use less memory, run faster, and give t
 
 ## Systems and research
 
-<p align="center"><img src="systems.svg" width="840" alt="Selected systems and topology research projects"></p>
+<p align="center"><a href="https://github.com/teerthsharma?tab=repositories&sort=stargazers"><img src="systems.svg" alt="Selected systems and topology research projects"></a></p>
+
+<p align="center"><sub><a href="https://github.com/teerthsharma/topological-ml-toolkit">topological-ml-toolkit</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/Epsilon-Hollow">Epsilon-Hollow</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/caustic">caustic</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/Aether-Lang">Aether-Lang</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/faraday">faraday</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/sigmoid">sigmoid</a> &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2604.19792">arXiv:2604.19792</a></sub></p>
 
 <details>
 <summary><b>The seven, with links</b></summary>
@@ -48,10 +52,13 @@ I make systems that already run at scale use less memory, run faster, and give t
 
 ## Range
 
+<p align="center"><a href="https://github.com/teerthsharma?tab=repositories"><img src="languages.svg" alt="Language distribution across source repositories, by bytes, live from the GitHub API"></a></p>
+
+<sub>Bytes across source repositories, refreshed weekly by <a href=".github/workflows/languages.yml">a scheduled Action</a>. It measures what I write here, not what I land upstream — the C and C++ work above lives in other people's trees.</sub>
+
 ```text
-Languages   Rust, C++, Python, CUDA, Triton, x86-64 assembly (AVX-512), Lean 4, TypeScript
-Systems     GPU kernels, compilers, runtimes, operating systems, Linux, QEMU/UEFI, profiling, Docker, CI/CD
-ML          PyTorch, JAX, TensorFlow, scikit-learn, sparse attention, inference optimisation, persistent homology
+Systems   GPU kernels, compilers, runtimes, operating systems, Linux, QEMU/UEFI, profiling, Docker, CI/CD
+ML        PyTorch, JAX, TensorFlow, scikit-learn, sparse attention, inference optimisation, persistent homology
 ```
 
 **Open to** performance, inference and compiler engineering roles including research engineering; residencies and mentored research placements; and collaborations that put persistent homology into a real training or inference pipeline.
