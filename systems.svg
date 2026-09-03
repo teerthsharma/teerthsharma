@@ -13,8 +13,8 @@
   .cursor { fill: #3fb950; animation: blink 1.1s steps(1) infinite }
   @keyframes cyc {
     0%          { opacity: 0; transform: translateY(7px) }
-    1.4286%  { opacity: 1; transform: translateY(0) }
-    12.8571% { opacity: 1; transform: translateY(0) }
+    0.5714%  { opacity: 1; transform: translateY(0) }
+    13.7143% { opacity: 1; transform: translateY(0) }
     14.2857%  { opacity: 0; transform: translateY(-7px) }
     100%        { opacity: 0; transform: translateY(-7px) }
   }
