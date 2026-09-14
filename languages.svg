@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="188" viewBox="0 0 840 188" role="img" aria-label="Language distribution across 13 source repositories, by bytes">
-<title>Languages by bytes across 13 source repositories</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="188" viewBox="0 0 840 188" role="img" aria-label="Language distribution across 14 source repositories, by bytes">
+<title>Languages by bytes across 14 source repositories</title>
 <style>
   .m { font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace }
   .prompt { fill: #6e7681; font-size: 15px }
@@ -16,19 +16,19 @@
 <line x1="16" y1="48" x2="824" y2="48" stroke="#21262d"/>
 <clipPath id="bar"><rect x="26" y="78" width="788" height="24" rx="6"/></clipPath>
 <g clip-path="url(#bar)">
-  <rect class="seg" x="26.00" y="78" width="549.34" height="24" fill="#dea584" style="transform-origin:26.00px 78px;animation-delay:0.00s"/>
-  <rect class="seg" x="575.34" y="78" width="202.09" height="24" fill="#3572A5" style="transform-origin:575.34px 78px;animation-delay:0.07s"/>
-  <rect class="seg" x="777.42" y="78" width="26.06" height="24" fill="#a0a2d2" style="transform-origin:777.42px 78px;animation-delay:0.14s"/>
-  <rect class="seg" x="803.49" y="78" width="10.51" height="24" fill="#6e7681" style="transform-origin:803.49px 78px;animation-delay:0.21s"/>
+  <rect class="seg" x="26.00" y="78" width="420.41" height="24" fill="#3572A5" style="transform-origin:26.00px 78px;animation-delay:0.00s"/>
+  <rect class="seg" x="446.41" y="78" width="335.47" height="24" fill="#dea584" style="transform-origin:446.41px 78px;animation-delay:0.07s"/>
+  <rect class="seg" x="781.89" y="78" width="22.34" height="24" fill="#a0a2d2" style="transform-origin:781.89px 78px;animation-delay:0.14s"/>
+  <rect class="seg" x="804.22" y="78" width="9.78" height="24" fill="#6e7681" style="transform-origin:804.22px 78px;animation-delay:0.21s"/>
 </g>
-<circle cx="31" cy="143" r="5" fill="#dea584"/>
-<text class="m" x="44" y="148"><tspan class="name">Rust</tspan><tspan class="pct" dx="8">69.7%</tspan></text>
-<circle cx="228" cy="143" r="5" fill="#3572A5"/>
-<text class="m" x="241" y="148"><tspan class="name">Python</tspan><tspan class="pct" dx="8">25.6%</tspan></text>
+<circle cx="31" cy="143" r="5" fill="#3572A5"/>
+<text class="m" x="44" y="148"><tspan class="name">Python</tspan><tspan class="pct" dx="8">53.4%</tspan></text>
+<circle cx="228" cy="143" r="5" fill="#dea584"/>
+<text class="m" x="241" y="148"><tspan class="name">Rust</tspan><tspan class="pct" dx="8">42.6%</tspan></text>
 <circle cx="425" cy="143" r="5" fill="#a0a2d2"/>
-<text class="m" x="438" y="148"><tspan class="name">Lean</tspan><tspan class="pct" dx="8">3.3%</tspan></text>
+<text class="m" x="438" y="148"><tspan class="name">Lean</tspan><tspan class="pct" dx="8">2.8%</tspan></text>
 <circle cx="622" cy="143" r="5" fill="#6e7681"/>
-<text class="m" x="635" y="148"><tspan class="name">Other</tspan><tspan class="pct" dx="8">1.3%</tspan></text>
-<text class="m meta" x="824" y="174" text-anchor="end">13 source repos - 12.3 MB - regenerated 2026-09-07</text>
+<text class="m" x="635" y="148"><tspan class="name">Other</tspan><tspan class="pct" dx="8">1.2%</tspan></text>
+<text class="m meta" x="824" y="174" text-anchor="end">14 source repos - 20.2 MB - regenerated 2026-09-14</text>
 <text class="m meta" x="26" y="174">live from the GitHub API</text>
 </svg>
