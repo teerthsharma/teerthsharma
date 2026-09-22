@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render the animated ticker cards for the profile README.
 
-Each card cycles one entry at a time: 11 upstream landings, 7 projects. The
+Each card cycles one entry at a time: 11 upstream landings, 8 projects. The
 slides are plain CSS keyframes on opacity plus a small translate, which GitHub
 serves through its image proxy intact -- no SMIL, no scripts, no web fonts.
 
@@ -30,7 +30,10 @@ def card(out, aria, prompt, footer, slides):
     n = len(slides)
     total = n * DUR
     seg = 100.0 / n
-    fin, fout = seg * 0.10, seg * 0.90
+    # 4% in, 4% out. Commit 7dce1c1 shortened the fade in the rendered SVGs so
+    # the card is never blank between entries, but left this line at 10%, so
+    # regenerating would have quietly undone it.
+    fin, fout = seg * 0.04, seg * 0.96
     tick_w = (W - 2 * PAD - (n - 1) * 8) / n
 
     bad = []
@@ -138,6 +141,8 @@ COMMITS = [
 ]
 
 SYSTEMS = [
+    ("resolvent", "research", "One attention head, read as an S-matrix",
+     "Python, Lean 4 - 175 declarations, zero sorry, Wheeler's 1937 closed form", "#3572A5"),
     ("topological-ml-toolkit", "systems", "Point clouds to persistence diagrams",
      "Rust, Python, C++/AVX-512, CUDA - checked against ripser and GUDHI", "#dea584"),
     ("Epsilon-Hollow", "systems", "How much kernel fits in safe Rust",
@@ -166,7 +171,7 @@ if __name__ == "__main__":
         "systems.svg",
         "Selected systems and topology research projects",
         "lab $ ls -1 systems/ research/ --explain",
-        "7 projects - systems and topology research",
+        "8 projects - systems and topology research",
         SYSTEMS,
     )
     sys.exit(0 if ok else 1)

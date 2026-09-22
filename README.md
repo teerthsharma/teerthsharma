@@ -1,9 +1,9 @@
 <h1 align="center">Teerth Sharma</h1>
 
-<p align="center"><b>Performance and systems engineer — compilers, GPU kernels, ML infrastructure. Research in topology.</b></p>
+<p align="center"><b>A twenty year old who likes turning maths into solid code: compilers, GPU kernels, ML infrastructure and topology.</b></p>
 
 <p align="center">
-<a href="Teerth_Sharma_Resume.pdf"><b>Résumé (PDF)</b></a> &nbsp;·&nbsp; <a href="https://teerthfolio.vercel.app">Portfolio</a> &nbsp;·&nbsp; <a href="https://teerthsharma.vercel.app">Website</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/teerth-sharma-seal">LinkedIn</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0005-0882-9168">ORCID</a> &nbsp;·&nbsp; <code>teerths57@gmail.com</code> &nbsp;·&nbsp; Jaipur, India
+<a href="https://teerthsharma.github.io"><b>Website</b></a> &nbsp;·&nbsp; <a href="Teerth_Sharma_Resume.pdf"><b>Résumé (PDF)</b></a> &nbsp;·&nbsp; <a href="https://teerthfolio.vercel.app">3D portfolio</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/teerth-sharma-seal">LinkedIn</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0005-0882-9168">ORCID</a> &nbsp;·&nbsp; <code>teerths57@gmail.com</code> &nbsp;·&nbsp; Jaipur, India
 </p>
 
 I make systems that already run at scale use less memory, run faster, and give the same answer twice. 
@@ -35,11 +35,12 @@ I make systems that already run at scale use less memory, run faster, and give t
 
 <p align="center"><a href="https://github.com/teerthsharma?tab=repositories&sort=stargazers"><img src="systems.svg" alt="Selected systems and topology research projects"></a></p>
 
-<p align="center"><sub><a href="https://github.com/teerthsharma/topological-ml-toolkit">topological-ml-toolkit</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/Epsilon-Hollow">Epsilon-Hollow</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/caustic">caustic</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/Aether-Lang">Aether-Lang</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/faraday">faraday</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/sigmoid">sigmoid</a> &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2604.19792">arXiv:2604.19792</a></sub></p>
+<p align="center"><sub><a href="https://github.com/teerthsharma/resolvent">resolvent</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/topological-ml-toolkit">topological-ml-toolkit</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/Epsilon-Hollow">Epsilon-Hollow</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/caustic">caustic</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/Aether-Lang">Aether-Lang</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/faraday">faraday</a> &nbsp;·&nbsp; <a href="https://github.com/teerthsharma/sigmoid">sigmoid</a> &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2604.19792">arXiv:2604.19792</a></sub></p>
 
 <details>
-<summary><b>The seven, with links</b></summary>
+<summary><b>The eight, with links</b></summary>
 
+- **[resolvent](https://github.com/teerthsharma/resolvent)** · Python, PyTorch, Lean 4. One causal attention head whose three switches move it between softmax attention, unnormalized-kernel attention and the exact path product of a Markov chain; each corner is a Lean 4 theorem and the float64 code is checked against it, bitwise at the corners. 175 declarations, zero `sorry`. Read through a resolvent, `(I − gP)⁻¹` is the closed form of the S-matrix Wheeler wrote in 1937 (Phys. Rev. 52, 1107) and Heisenberg carried through the 1940s, so the hop expansion is a Born series with `γ·ρ(P) < 1` as its convergence law; the README says plainly that this reconciliation adds no measurement of its own. On S5's 120-state automaton it scores 0.8620 ± 0.0556 against a commuting-diagonal control at 0.2860 ± 0.0150, matched at 404 parameters, 5 of 5 seeds. On a chess bed it does not predict, and why its gate closes is open after all four proposed mechanisms were refuted.
 - **[Topological ML Toolkit](https://github.com/teerthsharma/topological-ml-toolkit)** · Rust, Python, C++/AVX-512, CUDA. Point clouds and time series to persistence diagrams and Betti features through scikit-learn-style transformers. Four backends, one contract, checked against ripser and GUDHI.
 - **[Epsilon-Hollow](https://github.com/teerthsharma/Epsilon-Hollow)** · Rust, x86-64 assembly, QEMU/UEFI, Lean 4. Research OS testing how much of a kernel can be written in safe Rust: UEFI boot, SMP bring-up, four-level paging, demand paging, scheduling and a VFS — verified under Miri, booted in QEMU on every commit. The README says first that nothing in the kernel is production-tested.
 - **[Caustic](https://github.com/teerthsharma/caustic)** · Python, PyTorch. Detects LLM hallucinations without ground-truth labels by measuring orbit collapse — when a model's internal geometry maps distinct entities onto one answer — and turns that partition into a certified lower bound on error rate. 0.995 AUROC on collapse-type failures at sub-0.5B scale; 163 tests, CI across Python 3.10–3.12, and a [results page](https://teerthsharma.github.io/caustic/) documenting where the method does not hold.
