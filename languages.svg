@@ -16,28 +16,28 @@
 <line x1="16" y1="48" x2="824" y2="48" stroke="#21262d"/>
 <clipPath id="bar"><rect x="26" y="78" width="788" height="24" rx="6"/></clipPath>
 <g clip-path="url(#bar)">
-  <rect class="seg" x="26.00" y="78" width="395.86" height="24" fill="#3572A5" style="transform-origin:26.00px 78px;animation-delay:0.00s"/>
-  <rect class="seg" x="421.86" y="78" width="259.40" height="24" fill="#dea584" style="transform-origin:421.86px 78px;animation-delay:0.07s"/>
-  <rect class="seg" x="681.26" y="78" width="57.90" height="24" fill="#DA5B0B" style="transform-origin:681.26px 78px;animation-delay:0.14s"/>
-  <rect class="seg" x="739.16" y="78" width="43.63" height="24" fill="#f1e05a" style="transform-origin:739.16px 78px;animation-delay:0.21s"/>
-  <rect class="seg" x="782.79" y="78" width="16.57" height="24" fill="#a0a2d2" style="transform-origin:782.79px 78px;animation-delay:0.28s"/>
-  <rect class="seg" x="799.36" y="78" width="7.78" height="24" fill="#e34c26" style="transform-origin:799.36px 78px;animation-delay:0.35s"/>
-  <rect class="seg" x="807.15" y="78" width="6.85" height="24" fill="#6e7681" style="transform-origin:807.15px 78px;animation-delay:0.42s"/>
+  <rect class="seg" x="26.00" y="78" width="371.07" height="24" fill="#3572A5" style="transform-origin:26.00px 78px;animation-delay:0.00s"/>
+  <rect class="seg" x="397.07" y="78" width="235.38" height="24" fill="#dea584" style="transform-origin:397.07px 78px;animation-delay:0.07s"/>
+  <rect class="seg" x="632.45" y="78" width="100.16" height="24" fill="#f1e05a" style="transform-origin:632.45px 78px;animation-delay:0.14s"/>
+  <rect class="seg" x="732.61" y="78" width="52.54" height="24" fill="#DA5B0B" style="transform-origin:732.61px 78px;animation-delay:0.21s"/>
+  <rect class="seg" x="785.15" y="78" width="15.04" height="24" fill="#a0a2d2" style="transform-origin:785.15px 78px;animation-delay:0.28s"/>
+  <rect class="seg" x="800.18" y="78" width="7.22" height="24" fill="#e34c26" style="transform-origin:800.18px 78px;animation-delay:0.35s"/>
+  <rect class="seg" x="807.40" y="78" width="6.60" height="24" fill="#6e7681" style="transform-origin:807.40px 78px;animation-delay:0.42s"/>
 </g>
 <circle cx="31" cy="143" r="5" fill="#3572A5"/>
-<text class="m" x="44" y="148"><tspan class="name">Python</tspan><tspan class="pct" dx="8">50.2%</tspan></text>
+<text class="m" x="44" y="148"><tspan class="name">Python</tspan><tspan class="pct" dx="8">47.1%</tspan></text>
 <circle cx="228" cy="143" r="5" fill="#dea584"/>
-<text class="m" x="241" y="148"><tspan class="name">Rust</tspan><tspan class="pct" dx="8">32.9%</tspan></text>
-<circle cx="425" cy="143" r="5" fill="#DA5B0B"/>
-<text class="m" x="438" y="148"><tspan class="name">Jupyter Notebook</tspan><tspan class="pct" dx="8">7.3%</tspan></text>
-<circle cx="622" cy="143" r="5" fill="#f1e05a"/>
-<text class="m" x="635" y="148"><tspan class="name">JavaScript</tspan><tspan class="pct" dx="8">5.5%</tspan></text>
+<text class="m" x="241" y="148"><tspan class="name">Rust</tspan><tspan class="pct" dx="8">29.9%</tspan></text>
+<circle cx="425" cy="143" r="5" fill="#f1e05a"/>
+<text class="m" x="438" y="148"><tspan class="name">JavaScript</tspan><tspan class="pct" dx="8">12.7%</tspan></text>
+<circle cx="622" cy="143" r="5" fill="#DA5B0B"/>
+<text class="m" x="635" y="148"><tspan class="name">Jupyter Notebook</tspan><tspan class="pct" dx="8">6.7%</tspan></text>
 <circle cx="31" cy="173" r="5" fill="#a0a2d2"/>
-<text class="m" x="44" y="178"><tspan class="name">Lean</tspan><tspan class="pct" dx="8">2.1%</tspan></text>
+<text class="m" x="44" y="178"><tspan class="name">Lean</tspan><tspan class="pct" dx="8">1.9%</tspan></text>
 <circle cx="228" cy="173" r="5" fill="#e34c26"/>
-<text class="m" x="241" y="178"><tspan class="name">HTML</tspan><tspan class="pct" dx="8">1.0%</tspan></text>
+<text class="m" x="241" y="178"><tspan class="name">HTML</tspan><tspan class="pct" dx="8">0.9%</tspan></text>
 <circle cx="425" cy="173" r="5" fill="#6e7681"/>
-<text class="m" x="438" y="178"><tspan class="name">Other</tspan><tspan class="pct" dx="8">0.9%</tspan></text>
-<text class="m meta" x="824" y="204" text-anchor="end">16 source repos - 29.6 MB - regenerated 2026-09-28</text>
+<text class="m" x="438" y="178"><tspan class="name">Other</tspan><tspan class="pct" dx="8">0.8%</tspan></text>
+<text class="m meta" x="824" y="204" text-anchor="end">16 source repos - 32.6 MB - regenerated 2026-10-05</text>
 <text class="m meta" x="26" y="204">live from the GitHub API</text>
 </svg>
