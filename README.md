@@ -57,7 +57,7 @@ I make systems that already run at scale use less memory, run faster, and give t
 Every project gets the long version at **[teerth.blog](https://teerth.blog)**: what it is, how it was made, the maths and the Lean proofs, live three.js figures you can drag, and where it stops working.
 
 <details>
-<summary><b>The twelve essays</b></summary>
+<summary><b>The thirteen essays</b></summary>
 
 - **[separatrix](https://teerth.blog/separatrix)** · is your top-k set real, or did floating-point rounding choose it?
 - **[sigmoid](https://teerth.blog/sigmoid)** · the shape of a model's activations as a state, rolled forward with one ridge solve.
@@ -70,6 +70,7 @@ Every project gets the long version at **[teerth.blog](https://teerth.blog)**: w
 - **[topological-ml-toolkit](https://teerth.blog/topological-ml-toolkit)** · persistent homology as ordinary ML features, with a certificate.
 - **[nerve](https://teerth.blog/nerve)** · can an atomic descriptor see polymer knots?
 - **[monodromy](https://teerth.blog/monodromy)** · testing whether a map runs backwards, one pair of points at a time.
+- **[faraday](https://teerth.blog/faraday)** · a wall count that decides the bulk: Q = χ(D) + N_wall/2 on 132 of 132 cavity modes.
 - **[Electromagnetic-Field-Data-Simulator](https://teerth.blog/em-field-simulator)** · the Faraday tensor from sampled fields, summarised as a graph.
 
 </details>
