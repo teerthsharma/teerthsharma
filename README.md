@@ -3,7 +3,7 @@
 <p align="center"><b>A twenty year old who likes turning maths into solid code: compilers, GPU kernels, ML infrastructure and topology.</b></p>
 
 <p align="center">
-<a href="https://teerth.dev"><b>Website</b></a> &nbsp;·&nbsp; <a href="Teerth_Sharma_Resume.pdf"><b>Résumé (PDF)</b></a> &nbsp;·&nbsp; <a href="https://www.evilseal.si">3D portfolio</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/teerth-sharma-seal">LinkedIn</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0005-0882-9168">ORCID</a> &nbsp;·&nbsp; <code>teerths57@gmail.com</code> &nbsp;·&nbsp; Jaipur, India
+<a href="https://teerth.dev"><b>Website</b></a> &nbsp;·&nbsp; <a href="https://teerth.blog"><b>Essays</b></a> &nbsp;·&nbsp; <a href="Teerth_Sharma_Resume.pdf"><b>Résumé (PDF)</b></a> &nbsp;·&nbsp; <a href="https://www.evilseal.si">3D portfolio</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/teerth-sharma-seal">LinkedIn</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0005-0882-9168">ORCID</a> &nbsp;·&nbsp; <code>teerths57@gmail.com</code> &nbsp;·&nbsp; Jaipur, India
 </p>
 
 I make systems that already run at scale use less memory, run faster, and give the same answer twice. 
@@ -49,6 +49,28 @@ I make systems that already run at scale use less memory, run faster, and give t
 - **[faraday](https://github.com/teerthsharma/faraday)** · Python. 3D dielectric electromagnetic solver whose learned reduced-order coupling operator reaches a Banach fixed point at 1.755 × 10⁻¹⁶ after a 50,000-epoch burn. The run reproduces from a checkpoint in the repo.
 - **[sigmoid](https://github.com/teerthsharma/sigmoid)** · Python. Converts a trained model into a world model without retraining: activation windows to persistence barcodes, a Hilbert-series embedding, a linear coupling operator with a Banach contraction certificate when ‖T‖ < 1, and a sheaf-consistency gate that fires when an imagined trajectory leaves the calibrated manifold.
 - **OpenCLAW-P2P v7.0** — co-author, [arXiv:2604.19792](https://arxiv.org/abs/2604.19792), 2026. Decentralized peer-review protocol for AI research, with resilient persistence and live verification of cited references.
+
+</details>
+
+## Writing
+
+Every project gets the long version at **[teerth.blog](https://teerth.blog)**: what it is, how it was made, the maths and the Lean proofs, live three.js figures you can drag, and where it stops working.
+
+<details>
+<summary><b>The twelve essays</b></summary>
+
+- **[separatrix](https://teerth.blog/separatrix)** · is your top-k set real, or did floating-point rounding choose it?
+- **[sigmoid](https://teerth.blog/sigmoid)** · the shape of a model's activations as a state, rolled forward with one ridge solve.
+- **[resolvent](https://teerth.blog/resolvent)** · ranking a JEPA planner's candidates as a set, not one at a time.
+- **[caustic](https://teerth.blog/caustic)** · when a model holds a fact and still cannot reach it.
+- **[tangle](https://teerth.blog/tangle)** · a certified linking number for two cables, from one photo.
+- **[planimeter](https://teerth.blog/planimeter)** · a room count read from the drawing itself, or the coordinate where it cannot say.
+- **[Epsilon-Hollow](https://teerth.blog/epsilon-hollow)** · a kernel whose discrete answers come with a rounding certificate.
+- **[Aether-Lang](https://teerth.blog/aether-lang)** · persistent homology as a language primitive.
+- **[topological-ml-toolkit](https://teerth.blog/topological-ml-toolkit)** · persistent homology as ordinary ML features, with a certificate.
+- **[nerve](https://teerth.blog/nerve)** · can an atomic descriptor see polymer knots?
+- **[monodromy](https://teerth.blog/monodromy)** · testing whether a map runs backwards, one pair of points at a time.
+- **[Electromagnetic-Field-Data-Simulator](https://teerth.blog/em-field-simulator)** · the Faraday tensor from sampled fields, summarised as a graph.
 
 </details>
 
