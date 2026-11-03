@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render the animated ticker cards for the profile README.
 
-Each card cycles one entry at a time: 12 upstream landings, 8 projects. The
+Each card cycles one entry at a time: 13 upstream landings, 8 projects. The
 slides are plain CSS keyframes on opacity plus a small translate, which GitHub
 serves through its image proxy intact -- no SMIL, no scripts, no web fonts.
 
@@ -140,6 +140,8 @@ COMMITS = [
      "Rust - 208 chained components, shipped in 1.2.0 via 3e90baa", "#dea584"),
     ("open2c/polychrom", "#79", "Linking numbers with the right sign",
      "C++ - 11/11 against a Gauss integral, was 1/11; free/delete[] mismatches 16 to 0", "#f34b7d"),
+    ("boykopovar/AnyPS5", "#12609", "Frame-time stalls counted once",
+     "Python - 0-dim persistence, 0 diffs vs a brute-force oracle on 60,000 series", "#3572A5"),
 ]
 
 SYSTEMS = [
@@ -164,9 +166,9 @@ SYSTEMS = [
 if __name__ == "__main__":
     ok = card(
         "commits.svg",
-        "Twelve upstream contributions merged in 2026, eleven of them into production ML infrastructure",
+        "Thirteen upstream contributions merged in 2026, eleven of them into production ML infrastructure",
         "upstream $ git log --author=teerthsharma --merged --year=2026",
-        "12 merged - DeepMind, Google, OpenAI, NVIDIA, Meta, open2c",
+        "13 merged - DeepMind, Google, OpenAI, NVIDIA, Meta, open2c, AnyPS5",
         COMMITS,
     )
     ok &= card(
