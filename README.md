@@ -88,4 +88,4 @@ Systems   GPU kernels, compilers, runtimes, operating systems, Linux, QEMU/UEFI,
 ML        PyTorch, JAX, TensorFlow, scikit-learn, sparse attention, inference optimisation, persistent homology
 ```
 
-**Open to** performance, inference and compiler engineering roles including research engineering; residencies and mentored research placements; and collaborations that put persistent homology into a real training or inference pipeline.
+**Open to** investments and collaborations that put persistent homology into a real training or inference pipeline.
