@@ -126,8 +126,6 @@ COMMITS = [
      "C++ - insertion-ordered set kills hash-order drift, landed as 3d5df1d", "#f34b7d"),
     ("tensorflow/tensorflow", "#124410", "Reproducible collective-op ordering",
      "C++ - exact bit-matrix closure, graph is a function of the model alone", "#f34b7d"),
-    ("tensorflow/tensorflow", "#128930", "Combined NMS ordering made total",
-     "C++ - all 35,018 oracle cases match, was 24,716; 22% faster", "#f34b7d"),
     ("google/XNNPACK", "#10801", "32 MiB lower inference workspace",
      "C - planner reuses the arena gap, 6.4% off MobileNet V1 peak", "#555555"),
     ("google/highway", "#3244", "65x cheaper perfect-hash builds",
@@ -144,6 +142,8 @@ COMMITS = [
      "C++ - 11/11 against a Gauss integral, was 1/11; free/delete[] mismatches 16 to 0", "#f34b7d"),
     ("boykopovar/AnyPS5", "#12609", "Frame-time stalls counted once",
      "Python - 0-dim persistence, 0 diffs vs a brute-force oracle on 60,000 series", "#3572A5"),
+    ("tensorflow/tensorflow", "#128930", "Combined NMS ordering made total",
+     "C++ - all 35,018 oracle cases match, was 24,716; 22% faster", "#f34b7d"),
 ]
 
 SYSTEMS = [

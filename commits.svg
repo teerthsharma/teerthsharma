@@ -56,58 +56,58 @@
   <text class="m meta" x="26" y="180">C++ - exact bit-matrix closure, graph is a function of the model alone</text>
 </g>
 <g class="slide" style="animation-delay:-13.000s">
-  <circle cx="26" cy="86" r="6" fill="#f34b7d"/>
-  <text class="m repo" x="42" y="92">tensorflow/tensorflow<tspan class="tag" dx="10">#128930</tspan></text>
-  <text class="m head" x="26" y="146">Combined NMS ordering made total</text>
-  <text class="m meta" x="26" y="180">C++ - all 35,018 oracle cases match, was 24,716; 22% faster</text>
-</g>
-<g class="slide" style="animation-delay:-15.600s">
   <circle cx="26" cy="86" r="6" fill="#555555"/>
   <text class="m repo" x="42" y="92">google/XNNPACK<tspan class="tag" dx="10">#10801</tspan></text>
   <text class="m head" x="26" y="146">32 MiB lower inference workspace</text>
   <text class="m meta" x="26" y="180">C - planner reuses the arena gap, 6.4% off MobileNet V1 peak</text>
 </g>
-<g class="slide" style="animation-delay:-18.200s">
+<g class="slide" style="animation-delay:-15.600s">
   <circle cx="26" cy="86" r="6" fill="#f34b7d"/>
   <text class="m repo" x="42" y="92">google/highway<tspan class="tag" dx="10">#3244</tspan></text>
   <text class="m head" x="26" y="146">65x cheaper perfect-hash builds</text>
   <text class="m meta" x="26" y="180">C++ SIMD - 894M pairwise compares down to 13.6M, same duplicates</text>
 </g>
-<g class="slide" style="animation-delay:-20.800s">
+<g class="slide" style="animation-delay:-18.200s">
   <circle cx="26" cy="86" r="6" fill="#89e051"/>
   <text class="m repo" x="42" y="92">triton-lang/kernels<tspan class="tag" dx="10">#22</tspan></text>
   <text class="m head" x="26" y="146">3.48x faster long-context attention</text>
   <text class="m meta" x="26" y="180">Triton - skips 81% of blocks at 4K, within 1e-3 of the dense result</text>
 </g>
-<g class="slide" style="animation-delay:-23.400s">
+<g class="slide" style="animation-delay:-20.800s">
   <circle cx="26" cy="86" r="6" fill="#dea584"/>
   <text class="m repo" x="42" y="92">NVIDIA/NeMo-Relay<tspan class="tag" dx="10">#481</tspan></text>
   <text class="m head" x="26" y="146">Prompt-cache agreement 0.48 to 1.00</text>
   <text class="m meta" x="26" y="180">Rust - governor re-keyed on the scaffold, not the first user message</text>
 </g>
-<g class="slide" style="animation-delay:-26.000s">
+<g class="slide" style="animation-delay:-23.400s">
   <circle cx="26" cy="86" r="6" fill="#0f1689"/>
   <text class="m repo" x="42" y="92">NVIDIA/topograph<tspan class="tag" dx="10">#432</tspan></text>
   <text class="m head" x="26" y="146">Least-privilege RBAC, ClusterRole gone</text>
   <text class="m meta" x="26" y="180">Helm, Kubernetes - rules gated on engine and provider, 141/141 tests</text>
 </g>
-<g class="slide" style="animation-delay:-28.600s">
+<g class="slide" style="animation-delay:-26.000s">
   <circle cx="26" cy="86" r="6" fill="#dea584"/>
   <text class="m repo" x="42" y="92">facebook/pyrefly<tspan class="tag" dx="10">#4180</tspan></text>
   <text class="m head" x="26" y="146">Type-checker crash pinned down</text>
   <text class="m meta" x="26" y="180">Rust - 208 chained components, shipped in 1.2.0 via 3e90baa</text>
 </g>
-<g class="slide" style="animation-delay:-31.200s">
+<g class="slide" style="animation-delay:-28.600s">
   <circle cx="26" cy="86" r="6" fill="#f34b7d"/>
   <text class="m repo" x="42" y="92">open2c/polychrom<tspan class="tag" dx="10">#79</tspan></text>
   <text class="m head" x="26" y="146">Linking numbers with the right sign</text>
   <text class="m meta" x="26" y="180">C++ - 11/11 against a Gauss integral, was 1/11; free/delete[] mismatches 16 to 0</text>
 </g>
-<g class="slide" style="animation-delay:-33.800s">
+<g class="slide" style="animation-delay:-31.200s">
   <circle cx="26" cy="86" r="6" fill="#3572A5"/>
   <text class="m repo" x="42" y="92">boykopovar/AnyPS5<tspan class="tag" dx="10">#12609</tspan></text>
   <text class="m head" x="26" y="146">Frame-time stalls counted once</text>
   <text class="m meta" x="26" y="180">Python - 0-dim persistence, 0 diffs vs a brute-force oracle on 60,000 series</text>
+</g>
+<g class="slide" style="animation-delay:-33.800s">
+  <circle cx="26" cy="86" r="6" fill="#f34b7d"/>
+  <text class="m repo" x="42" y="92">tensorflow/tensorflow<tspan class="tag" dx="10">#128930</tspan></text>
+  <text class="m head" x="26" y="146">Combined NMS ordering made total</text>
+  <text class="m meta" x="26" y="180">C++ - all 35,018 oracle cases match, was 24,716; 22% faster</text>
 </g>
 <rect class="tick" x="26.0" y="222" width="48.9" height="4" rx="2"/>
 <rect class="tick-on" x="26.0" y="222" width="48.9" height="4" rx="2" style="animation-delay:0.000s;opacity:1"/>
