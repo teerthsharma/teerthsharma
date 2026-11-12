@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render the animated ticker cards for the profile README.
 
-Each card cycles one entry at a time: 13 upstream landings, 8 projects. The
+Each card cycles one entry at a time: 14 upstream landings, 8 projects. The
 slides are plain CSS keyframes on opacity plus a small translate, which GitHub
 serves through its image proxy intact -- no SMIL, no scripts, no web fonts.
 
@@ -126,6 +126,8 @@ COMMITS = [
      "C++ - insertion-ordered set kills hash-order drift, landed as 3d5df1d", "#f34b7d"),
     ("tensorflow/tensorflow", "#124410", "Reproducible collective-op ordering",
      "C++ - exact bit-matrix closure, graph is a function of the model alone", "#f34b7d"),
+    ("tensorflow/tensorflow", "#128930", "Combined NMS ordering made total",
+     "C++ - all 35,018 oracle cases match, was 24,716; 22% faster", "#f34b7d"),
     ("google/XNNPACK", "#10801", "32 MiB lower inference workspace",
      "C - planner reuses the arena gap, 6.4% off MobileNet V1 peak", "#555555"),
     ("google/highway", "#3244", "65x cheaper perfect-hash builds",
@@ -166,9 +168,9 @@ SYSTEMS = [
 if __name__ == "__main__":
     ok = card(
         "commits.svg",
-        "Thirteen upstream contributions merged in 2026, eleven of them into production ML infrastructure",
+        "Fourteen upstream contributions merged in 2026, twelve of them into production ML infrastructure",
         "upstream $ git log --author=teerthsharma --merged --year=2026",
-        "13 merged - DeepMind, Google, OpenAI, NVIDIA, Meta, open2c, AnyPS5",
+        "14 merged - DeepMind, Google, OpenAI, NVIDIA, Meta, open2c, AnyPS5",
         COMMITS,
     )
     ok &= card(
