@@ -3,7 +3,7 @@
 <p align="center"><b>A twenty year old who likes turning maths into solid code: compilers, GPU kernels, ML infrastructure and topology.</b></p>
 
 <p align="center">
-<a href="https://teerth.dev"><b>Website</b></a> &nbsp;·&nbsp; <a href="https://teerth.blog"><b>Essays</b></a> &nbsp;·&nbsp; <a href="Teerth_Sharma_Resume.pdf"><b>Résumé (PDF)</b></a> &nbsp;·&nbsp; <a href="https://www.evilseal.si">3D portfolio</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/teerth-sharma-seal">LinkedIn</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0005-0882-9168">ORCID</a> &nbsp;·&nbsp; <code>teerth@evilseal.si</code> &nbsp;·&nbsp; Jaipur, India
+<a href="https://teerth.dev"><b>Website</b></a> &nbsp;·&nbsp; <a href="https://teerth.blog"><b>Essays</b></a> &nbsp;·&nbsp; <a href="Teerth_Sharma_Resume.pdf"><b>Résumé (PDF)</b></a> &nbsp;·&nbsp; <a href="https://www.evilseal.si">3D portfolio</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/teerth-sharma-seal">LinkedIn</a> &nbsp;·&nbsp; <a href="https://orcid.org/0009-0005-0882-9168">ORCID</a> &nbsp;·&nbsp; <code>teerth@evilseal.si</code> &nbsp;·&nbsp; Banglore, India
 </p>
 
 I make systems that already run at scale use less memory, run faster, and give the same answer twice. 
